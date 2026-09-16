@@ -25,6 +25,7 @@ edit the `.html` files directly for any future changes.
 - Cart/checkout is intentionally disabled everywhere ("Ordering Opens At Launch") since the real store isn't live.
 - Contact email shown throughout: `hello@deadseriousnutrition.com`.
 - Keep header/nav/footer markup consistent across pages if hand-editing one — there's no shared include mechanism, so changes to nav/footer need to be applied per-file.
+- Every page's `<head>` carries a `<link rel="canonical">` (absolute `https://deadseriousnutrition.com/...` URL) plus matching Open Graph/Twitter meta tags derived from that page's `<title>`/description — keep all three in sync when editing a page's title or description. `404.html` additionally carries `<meta name="robots" content="noindex, follow">` and has no canonical tag.
 
 ## Local preview
 

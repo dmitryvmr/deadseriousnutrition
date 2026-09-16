@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <circle cx="16" cy="16" r="16" fill="#0a0a0a"/>
+  <g transform="rotate(45 16 16)">
+    <clipPath id="capsule">
+      <rect x="8" y="12" width="16" height="8" rx="4" ry="4"/>
+    </clipPath>
+    <rect x="8" y="12" width="16" height="8" rx="4" ry="4" fill="#f2f2f2"/>
+    <rect x="8" y="12" width="8" height="8" fill="#ff4d1c" clip-path="url(#capsule)"/>
+    <rect x="8" y="12" width="16" height="8" rx="4" ry="4" fill="none" stroke="#2c2c2c" stroke-width="0.6"/>
+  </g>
+</svg>
