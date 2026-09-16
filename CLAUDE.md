@@ -10,6 +10,8 @@ real store is built. Plain HTML/CSS/JS — no framework, no build step, no backe
 - `about.html`, `faq.html`, `contact.html` — content pages
 - `shipping-returns.html`, `privacy-policy.html`, `terms-of-service.html` — placeholder policy pages
 - `404.html`
+- `sitemap.xml` — lists all public pages for search engines; update it when adding/removing pages
+- `robots.txt` — allows all crawlers, points to `sitemap.xml`
 - `assets/css/style.css` — all styling (single shared stylesheet, bold dark gym/supplement theme)
 - `assets/js/main.js` — mobile nav toggle, newsletter form and contact form handlers (client-side only, no backend — they just show a confirmation message)
 - `CNAME` — required by GitHub Pages for the custom domain; contains `deadseriousnutrition.com`
